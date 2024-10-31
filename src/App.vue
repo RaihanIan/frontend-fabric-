@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import LoginPageView from './views/LoginPageView.vue';
 </script>
 
 <template>
