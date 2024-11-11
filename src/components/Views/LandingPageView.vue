@@ -1,11 +1,14 @@
-<script setup lang="ts">
-import MainLayout from '../layouts/MainLayout.vue';
-import LandingPage from '../LandingPage.vue';
-
-</script>
-
 <template>
-    <MainLayout>
-        <LandingPage/>
-    </MainLayout>
+ 
+       <Navbar></Navbar>
+ <Content></Content>
+      <Footer />
+
   </template>
+  
+  <script setup lang="ts">
+import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
+import Content from '@/components/Content.vue';
+  
+  </script>
