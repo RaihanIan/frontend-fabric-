@@ -1,8 +1,8 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './components/App.vue';
+import router from './components/router'; // Sesuaikan jalur file router Anda
+import './assets/scss/main.scss';
 
-createApp(App)
-    .use(router)
-    .mount('#app')
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
